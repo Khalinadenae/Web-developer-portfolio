@@ -109,6 +109,9 @@ p {
 #about {
   margin: 125px;
 }
+#about-section{
+    padding: 70px;
+}
 
 a {
   text-decoration: underline;
