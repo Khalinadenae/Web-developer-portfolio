@@ -1,0 +1,138 @@
+:root {
+  --heading-color: #4a332d;
+  --primary-color: #f5f2ea;
+  --secondary-color: #896b60;
+  --accent-color: #d0c7c2;
+}
+
+h1 {
+  font-family: "Italiana", serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  min-height: 100vh;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+/* Navbar */
+.navbar-collapse {
+  justify-content: end;
+}
+nav {
+  background-color: var(--primary-color);
+}
+.nav-item {
+  color: var(--heading-color);
+  font-family: "Cinzel", serif;
+}
+h7 {
+  padding: 20px;
+  padding-left: 30px;
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-family: "Italiana", serif;
+}
+.slogan {
+  color: var(--heading-color);
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+}
+/* hero section */
+.hero {
+  background: var(--primary-color);
+}
+
+.hero-heading {
+  width: 100%;
+  z-index: 1;
+  margin-right: -181px;
+  animation: slide-from-left 1.5s ease-out;
+}
+
+.hero-heading h1 {
+  font-size: 120px;
+  font-size: 7.9vw;
+
+  letter-spacing: 0.1em;
+  color: var(--heading-color);
+}
+
+.hero-heading h2 {
+  font-size: 32px;
+  font-size: 2vw;
+  letter-spacing: 0.1em;
+  opacity: 0.9;
+  color: var(--secondary-color);
+  font-family: "Playfair Display", serif;
+}
+
+.hero-image {
+  width: 66%;
+  align-self: center;
+}
+
+.hero-image img {
+  mix-blend-mode: multiply;
+  animation: slide-from-right 1.5s ease;
+}
+
+/* about */
+h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: "Cinzel", serif;
+}
+p {
+  color: var(--heading-color);
+  width: 90%;
+  font-family: "Playfair Display", serif;
+  line-height: 2em;
+}
+#about {
+  margin: 125px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+#me {
+  margin-left: 10px;
+  padding: 20px;
+}
+span {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* footer */
+footer {
+  background-color: var(--heading-color);
+}
+#contact {
+  color: var(--primary-color);
+  margin: 0;
+}
+.fa-brands,
+.fa-solid {
+  color: var(--primary-color);
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
