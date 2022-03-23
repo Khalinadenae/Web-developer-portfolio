@@ -116,8 +116,8 @@ p {
 #about {
   margin: 50px;
 }
-#about-section{
-    padding: 50px;
+#about-section {
+  padding: 50px;
 }
 
 a {
@@ -130,9 +130,9 @@ a {
   padding: 20px;
 }
 /* Projects */
-#projects{
-    margin: 30px;
-    padding: 30px;
+#projects {
+  margin: 30px;
+  padding: 30px;
 }
 
 /* footer */
@@ -140,31 +140,36 @@ a {
 #contact {
   color: var(--primary-color);
   margin: 0;
+  text-align: center;
 }
-.fa-brands{
-  color:var(--heading-color);
+.fa-brands {
+  color: var(--heading-color);
   margin-left: 20px;
-  margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 50px;
   border-radius: 70px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
-.fa-solid{
-    font-size: 15px;
-    color: var(--primary-color);
-    margin: 0;
+.fa-solid {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin: 0;
 }
 
-.contact-box{
-    background-color: var(--heading-color);
-    color: var(--accent-color);
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 30px;
- width: 50%;
-
+.contact-box {
+  color: var(--accent-color);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  width: 50%;
 }
-.email{
-    font-size: 12px;
+.email {
+  font-size: 20px;
   font-family: "Playfair Display", serif;
+}
+footer {
+  background-color: var(--secondary-color);
+  text-align: center;
+  justify-content: center;
 }
