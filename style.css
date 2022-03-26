@@ -89,6 +89,7 @@ h7 {
 .hero-image img {
   mix-blend-mode: multiply;
   animation: slide-from-right 1.5s ease;
+  float: right;
 }
 .slogan {
   color: var(--heading-color);
