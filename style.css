@@ -81,15 +81,18 @@ row{
   animation: slide-from-right 1.5s ease;
   float: right;
 }
+/* slogan */ 
 .slogan {
-  color: var(--heading-color);
-  font-family: "Playfair Display", serif;
+  color:var(--heading-color);
+  padding: 100px;
+ font-family: "Cinzel", serif;
+  }
+h3{
+  display: inline;
+  padding: 10px;
   font-size: 15px;
 }
-span {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 
 /* about */
 h2 {
@@ -152,7 +155,7 @@ button{
   margin-left: 50px;
   margin-bottom: 50px;
 }
-  img{
+   #hero-img{
     display: none;
   }
   h2{
@@ -162,6 +165,16 @@ button{
     color: #241500;
       margin-top: 170px;
   }
+.slogan {
+  color:var(--heading-color);
+  padding: 50px;
+font-family: "Cinzel", serif;
+  }
+h3{
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+}
 
 }
 
