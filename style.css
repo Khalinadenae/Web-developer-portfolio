@@ -6,25 +6,23 @@
 }
 
 /*typography*/
-h1 {
-  font-family: "Italiana", serif;
-}
-h2 {
-  font-family: "Montserrat", sans-serif;
-}
-.nav-item {
-  font-family: "Montserrat", sans-serif;
-}
+h1,
 h7 {
   font-family: "Italiana", serif;
 }
+h2,
+p,
+figcaption,
+h5,
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+}
+
 .slogan {
   font-family: "Bodoni Moda", serif;
   font-size: 300px;
 }
-p {
-  font-family: "Montserrat", sans-serif;
-}
+
 /* typography end */
 
 * {
@@ -183,6 +181,6 @@ li {
   padding-left: 10px;
   padding-bottom: 10px;
 }
-.fixed-bottom{
+.fixed-bottom {
   padding-bottom: 30px;
 }
