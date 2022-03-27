@@ -23,7 +23,7 @@ h7{
  font-size: 300px;
 }
 p{
-    font-family: "Playfair Display", serif;
+    font-family: 'Montserrat', sans-serif; 
 }
 /* typography end */
 
@@ -54,7 +54,6 @@ nav {
 }
 .nav-item {
   color: var(--heading-color);
-  font-family: "Cinzel", serif;
 }
 h7 {
   padding: 20px;
@@ -78,8 +77,9 @@ h2{
   font-size: 30px;
   margin: 4px;
   padding-left: 10px;
+  padding-bottom: 30px;
   color: var(--secondary-color);
-
+text-align: center;
 }
 
 button{
@@ -88,21 +88,17 @@ button{
   margin-left: 30px;
   margin-top: 60px;
 }
-row{
-  max-height:700px ;
-}
-.hero-image img {
-  mix-blend-mode: multiply;
-  animation: slide-from-right 1.5s ease;
-  float: right;
-}
+
 /* slogan */ 
 .slogan {
   color:var(--heading-color);
   width: 100%;
   padding-top: 200px;
   }
-
+h3{
+  color: var(--heading-color);
+  line-height: 2em;
+}
 
 /* about */
 h2 #about {
@@ -122,12 +118,10 @@ p {
   
 }
 
-
 a {
   text-decoration: underline;
   color: var(--heading-color);
 }
-
 #me {
   margin-left: 10px;
   padding: 20px;
@@ -136,15 +130,6 @@ a {
 li{
   list-style-type: none;
 }
-/* footer */
-footer{
-  margin: 30px;
-}
-.fa-solid{
-  font-family: "Playfair Display", serif;
-}
-
-
 /* Media queries */
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
@@ -204,6 +189,7 @@ h3{
 .cta {
  border: none;
  background: none;
+ margin-left:200px;
 }
 
 .cta span {
@@ -252,3 +238,7 @@ h3{
  transform-origin: bottom left;
 }
 /* custom CSS button end */
+.fa-brands{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
