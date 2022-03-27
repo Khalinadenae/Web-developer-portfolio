@@ -5,9 +5,27 @@
   --accent-color: #d0c7c2;
 }
 
-h1 {
-  font-family: "Italiana", serif;
+/*typography*/
+h1{
+   font-family: "Italiana", serif;
+  }
+h2{
+font-family: 'Montserrat', sans-serif;
 }
+.nav-item{
+  font-family: 'Montserrat', sans-serif;
+}
+h7{
+    font-family: "Italiana", serif;
+}
+.slogan{
+ font-family: 'Bodoni Moda', serif;
+ font-size: 300px;
+}
+p{
+    font-family: "Playfair Display", serif;
+}
+/* typography end */
 
 * {
   margin: 0px;
@@ -43,7 +61,6 @@ h7 {
   padding-left: 30px;
   font-size: 25px;
   margin-bottom: 5px;
-  font-family: "Italiana", serif;
   color:#241500;
 }
 
@@ -62,7 +79,7 @@ h2{
   margin: 4px;
   padding-left: 10px;
   color: var(--secondary-color);
-font-family:  "Playfair Display", serif;
+
 }
 
 button{
@@ -82,14 +99,9 @@ row{
 /* slogan */ 
 .slogan {
   color:var(--heading-color);
-  padding: 100px;
- font-family: "Cinzel", serif;
+  width: 100%;
+  padding-top: 200px;
   }
-h3{
-  display: inline;
-  padding: 10px;
-  font-size: 15px;
-}
 
 
 /* about */
@@ -100,7 +112,6 @@ h2 #about {
 p {
   color: var(--heading-color);
   width: 90%;
-  font-family: "Playfair Display", serif;
   line-height: 2em;
 }
 #about {
@@ -108,7 +119,9 @@ p {
 }
 #about-section {
   padding: 20px;
+  
 }
+
 
 a {
   text-decoration: underline;
@@ -198,6 +211,7 @@ h3{
  letter-spacing: 4px;
  font-size: 10px;
  padding-right: 15px;
+ font-family: 'Italiana', serif;
  text-transform: uppercase;
 }
 
@@ -216,7 +230,7 @@ h3{
 
 .hover-underline-animation {
  position: relative;
- color: black;
+ color: var(--heading-color);
  padding-bottom: 20px;
 }
 
