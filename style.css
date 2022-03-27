@@ -64,9 +64,7 @@ h2{
   color: var(--secondary-color);
 font-family:  "Playfair Display", serif;
 }
-.hero-image {
-  width: 10%;
-}
+
 button{
   display: block;
   float: left;
@@ -142,7 +140,6 @@ img{
   width: 80%;
 }
 }
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 #hero-section{
@@ -175,7 +172,4 @@ h3{
   padding: 10px;
   font-size: 15px;
 }
-
 }
-
-
