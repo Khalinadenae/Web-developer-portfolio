@@ -124,7 +124,12 @@ li{
   list-style-type: none;
 }
 /* footer */
-
+footer{
+  margin: 30px;
+}
+.fa-solid{
+  font-family: "Playfair Display", serif;
+}
 
 
 /* Media queries */
@@ -175,4 +180,8 @@ h3{
   padding: 10px;
   font-size: 15px;
 }
+#me{
+  padding-top: 60px;
 }
+}
+/* media query end */
