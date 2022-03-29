@@ -56,7 +56,7 @@ h7 {
   margin-bottom: 5px;
   color: #241500;
 }
-em{
+em {
   color: var(--accent-color);
 }
 
@@ -74,11 +74,10 @@ h2 {
   font-size: 30px;
   margin: 4px;
   padding-left: 10px;
-  padding-bottom: 30px;
   color: var(--secondary-color);
   text-align: center;
 }
-#heading{
+#heading {
   font-size: 50px;
 }
 
@@ -114,9 +113,9 @@ p {
 
 a {
   text-decoration: none;
-  color: black
+  color: black;
 }
-a:hover{
+a:hover {
   color: white;
 }
 #me {
@@ -163,7 +162,8 @@ li {
   }
   button {
     justify-content: center;
-  
+    text-align: center;
+    padding-left: 40px;
   }
   #hero-img {
     display: none;
@@ -202,6 +202,9 @@ li {
 .fixed-bottom {
   padding-bottom: 30px;
 }
-.fa-solid:hover{
+.fa-solid {
+  color: var(--heading-color);
+}
+.fa-solid:hover {
   color: var(--heading-color);
 }
