@@ -105,8 +105,11 @@ p {
 }
 
 a {
-  text-decoration: underline;
-  color: var(--heading-color);
+  text-decoration: none;
+  color: black
+}
+a:hover{
+  color: white;
 }
 #me {
   margin-left: 10px;
@@ -152,8 +155,7 @@ li {
   }
   button {
     justify-content: center;
-    margin-left: 50px;
-    margin-bottom: 50px;
+  
   }
   #hero-img {
     display: none;
