@@ -56,6 +56,9 @@ h7 {
   margin-bottom: 5px;
   color: #241500;
 }
+em{
+  color: var(--accent-color);
+}
 
 /* hero section */
 .hero {
@@ -75,6 +78,9 @@ h2 {
   color: var(--secondary-color);
   text-align: center;
 }
+#heading{
+  font-size: 50px;
+}
 
 /* slogan */
 .slogan {
@@ -88,9 +94,10 @@ h3 {
 }
 
 /* about */
-h2 #about {
+
+h2 .about {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 p {
   color: var(--heading-color);
@@ -99,6 +106,7 @@ p {
 }
 #about {
   margin: 20px;
+  font-size: 50px;
 }
 #about-section {
   padding: 20px;
@@ -180,7 +188,7 @@ li {
   #me {
     padding-top: 60px;
   }
-  .slogan {
+  #slogan {
     display: none;
   }
 }
@@ -189,7 +197,11 @@ li {
 .fa-brands {
   padding-left: 10px;
   padding-bottom: 10px;
+  color: #654c3e;
 }
 .fixed-bottom {
   padding-bottom: 30px;
+}
+.fa-solid:hover{
+  color: var(--heading-color);
 }
