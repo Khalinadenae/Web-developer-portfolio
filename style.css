@@ -163,8 +163,10 @@ li {
   button {
     justify-content: center;
     text-align: center;
-    padding-left: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
   }
+  
   #hero-img {
     display: none;
   }
