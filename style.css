@@ -80,6 +80,10 @@ h2 {
 #heading {
   font-size: 50px;
 }
+#buttons{
+    margin-left: 180px;
+}
+
 
 /* slogan */
 .slogan {
@@ -163,7 +167,7 @@ li {
   button {
     justify-content: center;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-bottom: 30px;
   }
   
