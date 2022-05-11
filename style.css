@@ -80,10 +80,9 @@ h2 {
 #heading {
   font-size: 50px;
 }
-#buttons{
-    margin-left: 180px;
+#buttons {
+  margin-left: 180px;
 }
-
 
 /* slogan */
 .slogan {
@@ -122,20 +121,19 @@ a {
 a:hover {
   color: white;
 }
-.btn:hover{
+.btn:hover {
   color: #241500;
   background-color: #241500;
 }
 
-
-    .btn {
+.btn {
   color: #241500;
   background-color: var(--secondary-color);
   border: transparent;
-  }
-  .btn:hover{
-    background-color: var(--heading-color);
-  }
+}
+.btn:hover {
+  background-color: var(--heading-color);
+}
 #me {
   margin-left: 10px;
   padding: 20px;
@@ -179,13 +177,13 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  button {
-    justify-content: center;
-    text-align: center;
+  #buttons {
+    justify-content: left;
+  
     margin-left: 10px;
     margin-bottom: 30px;
   }
-  
+
   #hero-img {
     display: none;
   }
@@ -211,6 +209,19 @@ li {
   }
   #slogan {
     display: none;
+  }
+  #contact-text {
+    text-align: center;
+  }
+  #contact-img {
+    display: none;
+  }
+  #about {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .text-sm-start {
+    text-align: left;
   }
 }
 /* media query end */
